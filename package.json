@@ -1,0 +1,22 @@
+{
+  "name": "graphql-dotnext-mini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Keroosha",
+  "license": "ABRMS",
+  "devDependencies": {
+    "@types/node": "13.7.4",
+    "@types/reveal": "3.3.33",
+    "parcel-bundler": "1.12.4",
+    "prettier": "1.19.1",
+    "pug": "2.0.4",
+    "typescript": "3.7.5"
+  },
+  "dependencies": {
+    "reveal.js": "3.9.2"
+  },
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
+  }
+}
