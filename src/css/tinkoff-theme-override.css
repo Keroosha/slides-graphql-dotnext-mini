@@ -1,0 +1,35 @@
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffdd2d;
+}
+
+.header-first-slide {
+  display: flex;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 0.2rem solid #ffdd2d;
+}
+
+.header-logo-img {
+  width: 20%;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.flex-column-section-heading {
+  display: flex !important;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.flex-column-slides {
+  display: flex !important;
+  flex-direction: column;
+  height: 100%;
+}

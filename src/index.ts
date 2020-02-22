@@ -12,4 +12,6 @@ Reveal.initialize({
   overview: false,
   center: false,
   help: false,
+  width: 1280,
+  height: 720
 });
